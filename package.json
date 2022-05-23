@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.3",
+    "bulma": "^0.9.4",
+    "msw": "0.39.2"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.3",
+    "sass": "^1.51.0",
+    "sass-loader": "12.6.0"
+  },
+  "msw": {
+    "workerDirectory": "server"
+  }
+}
